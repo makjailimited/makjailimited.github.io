@@ -40,15 +40,15 @@ sections:
   - block: stats
     content:
       items:
-        - statistic: "500+"
+        - statistic: "50+"
           description: |
             Businesses empowered  
             with AI Solutions
-        - statistic: "15+"
+        - statistic: "10+"
           description: |
             AI Products  
             developed
-        - statistic: "5k+"
+        - statistic: "1k+"
           description: |
             Hours of consulting  
             delivered
@@ -111,29 +111,29 @@ sections:
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
-  - block: testimonials
-    content:
-      title: ""
-      text: ""
-      items:
-        - name: "Jane Doe"
-          role: "CTO at InnovateTech"
-          image: "testimonial-1.jpg"
-          text: "Mak J AI Limited transformed our analytics capabilities and drove significant business insights with their expertise!"
-    design:
-      spacing:
-        # Reduce bottom spacing so the testimonial appears vertically centered between sections
-        padding: ["6rem", 0, 0, 0]
-  - block: cta-card
-    content:
-      title: Transform Your Business with AI
-      text: Unlock new potentials and elevate your operations.
-      # button:
-      #   text: Get Started
-      #   url: https://makj.ai/services/
-    design:
-      card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-700"
-        css_style: ""
+  # - block: testimonials
+  #   content:
+  #     title: ""
+  #     text: ""
+  #     items:
+  #       - name: "Jane Doe"
+  #         role: "CTO at InnovateTech"
+  #         image: "testimonial-1.jpg"
+  #         text: "Mak J AI Limited transformed our analytics capabilities and drove significant business insights with their expertise!"
+  #   design:
+  #     spacing:
+  #       # Reduce bottom spacing so the testimonial appears vertically centered between sections
+  #       padding: ["6rem", 0, 0, 0]
+  # - block: cta-card
+  #   content:
+  #     title: Transform Your Business with AI
+  #     text: Unlock new potentials and elevate your operations.
+  #     # button:
+  #     #   text: Get Started
+  #     #   url: https://makj.ai/services/
+  #   design:
+  #     card:
+  #       # Card background color (CSS class)
+  #       css_class: "bg-primary-700"
+  #       css_style: ""
 ---
