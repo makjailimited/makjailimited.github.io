@@ -19,11 +19,11 @@ sections:
       # secondary_action:
       #   text: Read the docs
       #   url: https://makj.ai/docs
-      announcement:
-        text: "Announcing the launch of our new AI-driven solutions."
-        link:
-          text: "Read more"
-          url: "/blog/"
+      # announcement:
+      #   text: "Announcing the launch of our new AI-driven solutions."
+      #   link:
+      #     text: "Read more"
+      #     url: "/blog/"
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -83,7 +83,7 @@ sections:
           icon: refresh
           description: Staying ahead with the latest advancements in AI and machine learning.
   - block: cta-image-paragraph
-    id: services
+    id: solutions
     content:
       items:
         - title: AI Solutions Tailored to Your Needs
@@ -93,11 +93,10 @@ sections:
             - "Custom AI model development"
             - "AI-driven business transformation"
             - "Proactive AI strategy consulting"
-          # Upload image to `assets/media/` and reference the filename here
-          image: ai-solutions.png
-          button:
-            text: Get Started
-            url: https://makj.ai/services/
+          image: build-website.png
+          # button:
+          #   text: Get Started
+          #   url: https://makj.ai/services/
         - title: Join Our Community
           text: Connect with professionals and experts in our AI community.
           feature_icon: bolt
@@ -105,11 +104,10 @@ sections:
             - "Expert support channel"
             - "Dedicated AI discussions"
             - "Share insights and innovations"
-          # Upload image to `assets/media/` and reference the filename here
-          image: community.jpg
-          button:
-            text: Join Community
-            url: https://community.makj.ai
+          image: coffee.jpg
+          # button:
+          #   text: Join Community
+          #   url: https://community.makj.ai
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
@@ -120,7 +118,6 @@ sections:
       items:
         - name: "Jane Doe"
           role: "CTO at InnovateTech"
-          # Upload image to `assets/media/` and reference the filename here
           image: "testimonial-1.jpg"
           text: "Mak J AI Limited transformed our analytics capabilities and drove significant business insights with their expertise!"
     design:
